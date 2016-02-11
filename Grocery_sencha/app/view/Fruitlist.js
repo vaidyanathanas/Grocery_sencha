@@ -1,28 +1,36 @@
 Ext.define('Grocery.view.Fruitlist', {
-    extend: 'Ext.Panel',
-    xtype: 'HomeView',
-    refs: {
-        HomeView: {
-            autoCreate: true,
-            selector: 'HomeView',
-            xtype: 'HomeView'
-        },
-    },
-    requires: [
-        'Ext.TitleBar'  
-    ],
-    config: {
-     
-        items: [
+    extend: 'Ext.List',
+    xtype: 'fruitlist',
+  requires: ['Grocery.store.Fruitstore',  'Ext.TitleBar'],
+ 
+   config: {
+       
+        title: 'Fruit List',
+        grouped: true,
+        itemTpl: '{fruitName}',
+        store: 'Fruitstore',
+        onItemDisclosure: true,
+
+         items: [
             {    
 
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Fruit Lists'
-                }
-        
-        ]
-        
+                    title: 'Fruit List',
+                    items:[
+                    {
+                    	 xtype: 'button',
+     					 ui: 'back',
+     					 text: 'Back',
+     					 id:'flistback'
+                    }]
 
-    }
+                }
+
+                	]
+                
+
+               }
 });
+
+ 

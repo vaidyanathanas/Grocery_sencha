@@ -1,18 +1,11 @@
-Ext.define('Grocery.view.Main', {
+Ext.define('Grocery.view.Main1', {
     extend: 'Ext.Panel',
     xtype: 'main',
-    requires: [
-        'Ext.TitleBar'  
-    ],
+    
     config: {
      
         items: [
-            {    
-
-                    docked: 'top',
-                    xtype: 'titlebar',
-                    title: 'GROCERY'
-                },
+           
                 { layout:'hbox',
                    margin:'100px 0px 0px 0px',
                     items:[{
@@ -30,7 +23,7 @@ Ext.define('Grocery.view.Main', {
                      width:'50%'
 
                 }]}
-       
+        
         ]
         
 

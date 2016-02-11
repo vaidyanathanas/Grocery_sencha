@@ -18,10 +18,21 @@ Ext.application({
     ],
 
     views: [
-        'Main'
+        'Main',
+        'Main1',
+        'Fruitlist',
+        'Vegetablelist',
+        'Fruitdetailsview',
+        'Vegetabledetailsview'
     ],
     controllers:[
      'Mainfruits'
+    ],
+    models:[
+     'Fruitmodel','Vegetablemodel'
+    ],
+    stores:[
+     'Fruitstore','Vegetablestore'
     ],
     icon: {
         '57': 'resources/icons/Icon.png',
