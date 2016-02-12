@@ -13,7 +13,7 @@ requires: [  'Ext.TitleBar'],
 
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Vegetable Details',
+                    id: 'myvTitle',                
                     items:[
                     {
                          xtype: 'button',
@@ -23,5 +23,9 @@ requires: [  'Ext.TitleBar'],
                     }]
 
                 }]
-    }
+    },
+     initialize : function() {
+       
+            //Ext.getCmp('myTitle').setTitle('Vegetable Details');
+        }
 });

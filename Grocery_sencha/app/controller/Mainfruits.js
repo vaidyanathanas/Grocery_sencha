@@ -99,8 +99,11 @@ Ext.define('Grocery.controller.Mainfruits', {
             type: "slide",
             direction: "right"
         });
+            Ext.getCmp('myfTitle').setTitle(record.data.fruitName);
     },
     showfullVegetableDetail: function(list, record) {
+          console.log(record.data.vegetableName);
+       
         Ext.Viewport.animateActiveItem({
             xtype: 'vegetabledetailsview',
             data: record.getData()
@@ -108,6 +111,7 @@ Ext.define('Grocery.controller.Mainfruits', {
             type: "slide",
             direction: "right"
         });
+        Ext.getCmp('myvTitle').setTitle(record.data.vegetableName);
     }
 
 });

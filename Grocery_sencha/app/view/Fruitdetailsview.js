@@ -13,6 +13,7 @@ requires: [  'Ext.TitleBar'],
 
                     docked: 'top',
                     xtype: 'titlebar',
+                    id:'myfTitle',
                     title: 'Fruit Details',
                     items:[
                     {
