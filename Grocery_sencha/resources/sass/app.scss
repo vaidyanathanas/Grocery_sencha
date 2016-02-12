@@ -5,6 +5,24 @@
 @import 'sencha-touch/default/all';
 
 // Custom code goes here..
+#btnvegetable{
+	width: 50%;
+	height: 290px;
+	margin: 2px;
+    background-image: url('../images/vegetableicon.png');
+       background-size: 400px 310px;
+    background-repeat: no-repeat;
+        padding-bottom: 280px;
+}
+#btnfruits{
+	width: 50%;
+	height: 290px;
+	margin: 2px;
+    background-image: url('../images/fruiticon.png');
+    background-size: 400px 310px;
+    background-repeat: no-repeat;
+    padding-bottom: 280px;
+}
 
-// Examples of using the icon mixin:
+// Examples of using the icon mixin
 // @include icon('user');

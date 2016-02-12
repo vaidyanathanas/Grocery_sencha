@@ -12,8 +12,7 @@ Ext.define('Grocery.store.Vegetablestore', {
             { vegetableName: "Vellarikka", vegetablePrice: 13.00 },
             { vegetableName: "Padavalanga", vegetablePrice: 34.00 },
             { vegetableName: "Vendakka", vegetablePrice: 23.50 },
-            { vegetableName: "Paavakka", vegetablePrice: 12.00},
-            
+            { vegetableName: "Paavakka", vegetablePrice: 12.00}
         ]
     }
 });

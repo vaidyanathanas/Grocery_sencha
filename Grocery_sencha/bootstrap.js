@@ -668,7 +668,17 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
-  "Grocery.view.Main": []
+  "Grocery.controller.Mainfruits": [],
+  "Grocery.model.Fruitmodel": [],
+  "Grocery.model.Vegetablemodel": [],
+  "Grocery.store.Fruitstore": [],
+  "Grocery.store.Vegetablestore": [],
+  "Grocery.view.Fruitdetailsview": [],
+  "Grocery.view.Fruitlist": [],
+  "Grocery.view.Main": [],
+  "Grocery.view.Main1": [],
+  "Grocery.view.Vegetabledetailsview": [],
+  "Grocery.view.Vegetablelist": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1397,8 +1407,28 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "Grocery.controller.Mainfruits": [],
+  "Grocery.model.Fruitmodel": [],
+  "Grocery.model.Vegetablemodel": [],
+  "Grocery.store.Fruitstore": [],
+  "Grocery.store.Vegetablestore": [],
+  "Grocery.view.Fruitdetailsview": [
+    "widget.fruitdetailsview"
+  ],
+  "Grocery.view.Fruitlist": [
+    "widget.fruitlist"
+  ],
   "Grocery.view.Main": [
     "widget.main"
+  ],
+  "Grocery.view.Main1": [
+    "widget.main"
+  ],
+  "Grocery.view.Vegetabledetailsview": [
+    "widget.vegetabledetailsview"
+  ],
+  "Grocery.view.Vegetablelist": [
+    "widget.vegetablelist"
   ]
 });
 

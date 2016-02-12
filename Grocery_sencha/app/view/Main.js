@@ -14,21 +14,21 @@ Ext.define('Grocery.view.Main', {
                     title: 'GROCERY'
                 },
                 { layout:'hbox',
-                   margin:'100px 0px 0px 0px',
+                   margin:'50px 15px 0px 10px',
+
+
+
                     items:[{
                      xtype: 'button',
                      text: 'FRUITS',
+
                      ui:'round',
                      id:'btnfruits',
-                     width:'50%'
-
                 },{
                      xtype: 'button',
                      text: 'VEGETABLES',
                      ui:'round',
                      id:'btnvegetable',
-                     width:'50%'
-
                 }]}
        
         ]
