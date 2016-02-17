@@ -1,6 +1,5 @@
 Ext.define('Grocery.store.Vegetablestore', {
-    extend: 'Ext.data.Store',
-    
+    extend: 'Ext.data.Store',    
     config: {
         model: 'Grocery.model.Vegetablemodel',
         sorters: 'vegetableName',

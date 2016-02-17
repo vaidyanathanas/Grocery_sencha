@@ -12,11 +12,9 @@
 
 Ext.application({
     name: 'Grocery',
-
     requires: [
         'Ext.MessageBox'
     ],
-
     views: [
         'Main',
         'Main1',
@@ -40,9 +38,7 @@ Ext.application({
         '114': 'resources/icons/Icon@2x.png',
         '144': 'resources/icons/Icon~ipad@2x.png'
     },
-
     isIconPrecomposed: true,
-
     startupImage: {
         '320x460': 'resources/startup/320x460.jpg',
         '640x920': 'resources/startup/640x920.png',
@@ -51,7 +47,6 @@ Ext.application({
         '1536x2008': 'resources/startup/1536x2008.png',
         '1496x2048': 'resources/startup/1496x2048.png'
     },
-
     launch: function() {
         // Destroy the #appLoadingIndicator element
         Ext.fly('appLoadingIndicator').destroy();
@@ -59,7 +54,6 @@ Ext.application({
         // Initialize the main view
         Ext.Viewport.add(Ext.create('Grocery.view.Main'));
     },
-
     onUpdated: function() {
         Ext.Msg.confirm(
             "Application Update",

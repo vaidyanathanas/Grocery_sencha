@@ -10,7 +10,6 @@ requires: [  'Ext.TitleBar'],
             '{fruitName} .................................................... {fruitPrice} Rs/kg'
         ], items: [
             {    
-
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Fruit Details',
@@ -21,8 +20,6 @@ requires: [  'Ext.TitleBar'],
                          text: 'Back',
                          id:'fdetailsback'
                     }]
-
-
                 }]
     }
 });

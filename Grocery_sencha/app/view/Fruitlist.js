@@ -13,24 +13,20 @@ Ext.define('Grocery.view.Fruitlist', {
 
          items: [
             {    
-
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Fruit List',
                     items:[
-                    {
-                    	 xtype: 'button',
-     					 ui: 'back',
-     					 text: 'Back',
-     					 id:'flistback'
-                    }]
+                            {
+                                xtype: 'button',
+                                ui: 'back',
+                                text: 'Back',
+                                id:'flistback'
+                            }      
+                          ]
 
-                }
-
+             }
                 	]
                 
-
                }
 });
-
- 

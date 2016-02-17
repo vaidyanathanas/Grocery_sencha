@@ -1,11 +1,8 @@
 Ext.define('Grocery.view.Vegetablelist', {
        extend: 'Ext.List',
     xtype: 'vegetablelist',
-
     requires: ['Grocery.store.Vegetablestore',  'Ext.TitleBar'],
-
-   config: {
-       
+    config: {       
         title: 'Vegetable List',
         grouped: true,
         itemTpl: '{vegetableName}',
@@ -13,7 +10,6 @@ Ext.define('Grocery.view.Vegetablelist', {
         onItemDisclosure: true,
          items: [
             {    
-
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Vegetable List',
@@ -25,8 +21,5 @@ Ext.define('Grocery.view.Vegetablelist', {
                          id:'vlistback'
                     }]
                 }]
-
                }
 });
-
- 

@@ -38,11 +38,8 @@ Ext.define('Grocery.controller.Mainfruits', {
             'vegetabledetailsview #vdetailsback': {
                 tap: 'govdetailsback'
             }
-
         }
     },
-
-
     govdetailsback: function() {
         Ext.Viewport.animateActiveItem({
             xtype: 'vegetablelist'
@@ -109,5 +106,4 @@ Ext.define('Grocery.controller.Mainfruits', {
             direction: "right"
         });
     }
-
 });

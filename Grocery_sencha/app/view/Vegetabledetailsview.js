@@ -20,8 +20,10 @@ requires: [  'Ext.TitleBar'],
                          ui: 'back',
                          text: 'Back',
                          id:'vdetailsback'
-                    }]
+                    }
+                           ]
 
-                }]
-    }
+              }
+                   ]
+              }
 });

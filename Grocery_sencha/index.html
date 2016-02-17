@@ -22,7 +22,6 @@
             height: 100%;
             background-color: #1985D0
         }
-
         #appLoadingIndicator {
             position: absolute;
             top: 50%;
@@ -35,7 +34,6 @@
             -webkit-animation-iteration-count: infinite;
             -webkit-animation-direction: linear;
         }
-
         #appLoadingIndicator > * {
             background-color: #FFFFFF;
             display: inline-block;
@@ -45,7 +43,6 @@
             width: 30px;
             opacity: 0.8;
         }
-
         @-webkit-keyframes appLoadingIndicator{
             0% {
                 opacity: 0.8
@@ -62,9 +59,12 @@
     <script id="microloader" type="text/javascript" src=".sencha/app/microloader/development.js"></script>
 </head>
 <body>
+	<link  rel="stylesheet" type="text/css" href="app/js/css/ext.ux.ratingfield.css" ></script>
     <script src="js/initOptions.js"></script>
             <script src="js/main.js"></script>
             <script src="js/messages.js"></script>
+	<script type="text/javascript" language="javascript" src="app/js/ext.ux.ratingfield.js" ></script>
+	<script type="text/javascript" language="javascript" src="app/js/howToUse.js" ></script>
     <div id="appLoadingIndicator">
         <div></div>
         <div></div>
